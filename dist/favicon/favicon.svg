@@ -1,5 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect x="25" y="25" width="50" height="50" fill="#0066cc" rx="5"/>
-  <path d="M75 30 L85 20 L85 70 L75 75 Z" fill="#0052a3"/>
-  <path d="M25 75 L75 75 L85 70 L35 70 Z" fill="#004c99"/>
+  <!-- 阴影 -->
+  <ellipse cx="50" cy="85" rx="30" ry="8" fill="#0066cc" opacity="0.2"/>
+  
+  <!-- 主体立方体 - 向上倾斜表示跳跃 -->
+  <g transform="rotate(-15, 50, 50)">
+    <!-- 正面 -->
+    <rect x="30" y="35" width="40" height="40" fill="#0066cc" rx="4"/>
+    
+    <!-- 顶面 -->
+    <path d="M30 35 L40 25 L80 25 L70 35 Z" fill="#2986e6"/>
+    
+    <!-- 右侧面 -->
+    <path d="M70 35 L80 25 L80 65 L70 75 Z" fill="#0052a3"/>
+  </g>
+
+  <!-- 动感线条 -->
+  <path d="M20 70 L30 60 M25 75 L35 65 M30 80 L40 70" 
+        stroke="#0066cc" 
+        stroke-width="2" 
+        stroke-linecap="round"
+        opacity="0.6"/>
 </svg> 
