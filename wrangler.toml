@@ -1,0 +1,9 @@
+name = "bloxdio"
+main = "workers-site/index.js"
+compatibility_date = "2024-03-29"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "" 
