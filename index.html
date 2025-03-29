@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Bloxd.io - 3D Parkour Adventure Game Online</title>
+    <meta name="description" content="Play Bloxd.io online - An exciting 3D parkour adventure game where you jump, run and compete with players worldwide. Experience smooth gameplay and challenging levels!">
+    <link rel="canonical" href="https://bloxdio.gamedock.site" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            bg: '#f5f5f7',
+                            text: '#1d1d1f',
+                            accent: '#0066cc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwind">
+        @layer base {
+            body {
+                @apply bg-apple-bg text-apple-text;
+            }
+            h1 {
+                @apply text-4xl md:text-5xl font-bold mb-4;
+            }
+            h2 {
+                @apply text-2xl md:text-3xl font-semibold mt-8 mb-4;
+            }
+            p {
+                @apply text-lg mb-4 leading-relaxed;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <main class="container mx-auto px-4 py-8 max-w-6xl">
+        <h1 class="text-center">Play Bloxd.io - Master the Art of 3D Parkour</h1>
+        
+        <p class="text-xl text-center text-apple-accent mb-8">
+            Challenge yourself in this thrilling 3D parkour game where precision jumping and quick thinking are your keys to victory!
+        </p>
+
+        <div class="relative w-full rounded-xl overflow-hidden shadow-2xl bg-black mb-12" style="height: 80vh;">
+            <iframe src="https://www.crazygames.com/embed/bloxdhop-io" 
+                    style="width: 100%; height: 100%;" 
+                    frameborder="0" 
+                    allow="gamepad *;"
+                    class="absolute inset-0">
+            </iframe>
+        </div>
+
+        <section class="space-y-8">
+            <div>
+                <h2>About Bloxd.io</h2>
+                <p>Bloxd.io is an engaging multiplayer 3D parkour game that combines skill-based gameplay with competitive elements. Navigate through challenging courses, compete with players worldwide, and test your parkour abilities in this exciting online adventure.</p>
+            </div>
+
+            <div>
+                <h2>Game Features</h2>
+                <ul class="list-disc list-inside space-y-2 ml-4">
+                    <li>Smooth 3D graphics and responsive controls</li>
+                    <li>Multiple challenging levels and obstacles</li>
+                    <li>Real-time multiplayer competition</li>
+                    <li>Cross-platform gameplay support</li>
+                    <li>Regular updates and new content</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>How to Play</h2>
+                <p>Use your keyboard to control your character: WASD or arrow keys for movement, spacebar for jumping. Time your jumps carefully and maintain momentum to reach the finish line. Compete against other players and try to achieve the best time on each course.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-8 text-sm text-gray-600">
+        <p>&copy; 2024 Bloxd.io - All rights reserved</p>
+    </footer>
+</body>
+</html> 
